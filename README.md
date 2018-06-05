@@ -1,2 +1,2 @@
-# Introduction_cs_python
-Code for the EdX MOOC Introduction to computer science with PYTHON
+# introduction_cs_python
+Code for the EdX MOOC Introduction To Computer Science With Python
