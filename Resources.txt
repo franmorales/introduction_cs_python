@@ -1,0 +1,14 @@
+Documentation of Python 3
+
+vhttps://docs.python.org/3/library/index.html
+
+Textbooks and tutorials:"
+
+Reserved Keywords in Python - don't use these as variable names || https://docs.python.org/3.0/reference/lexical_analysis.html#id8
+PEP 8 - Style Guide for Python Code - learn what is good and bad style in Python || https://www.python.org/dev/peps/pep-0008/
+Python Tutor - interactive tutorial sequence of exercises ||  http://www.pythontutor.com
+
+Training:
+
+https://www.codewars.com/?language=python
+https://www.hackerrank.com  || Al menos dos desfíos semanales de esto (al menos)
