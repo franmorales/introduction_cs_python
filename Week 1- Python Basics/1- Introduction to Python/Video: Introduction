@@ -1,0 +1,18 @@
+How to think like a Computer Scientist.
+Computational thinking
+Algorithimic thinking
+How to solve problems using a computer.
+
+There is a standard kind of algorithms that we can use.
+
+What does a compuiter do:
+  Perform calculations.  + Very fast!!!
+  Remember things. + A lot of things!!
+  
+Sin embargo eso no es suficiente. Que sean rapidas no implica que puedan resolver problmemas de forma rapida debido a que
+muchos de estos problemas no solo requieren que sean rapidos sino tambien una solucion eficiente. De lo contrario, tomarian
+mucho tiempo. Aqui es donde nesecitamos pensar en un algoritmo.
+
+Los algoritmos lo son todo! Aun cuando tengamos una computadora muyu rapida y mucha memoria en donde almacenar la data.
+
+Tambien existen problemas que son fundamentaly imposibles de resolver, por mas que tengamos un algoritmo muy eficiente.
