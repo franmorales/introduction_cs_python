@@ -1,0 +1,11 @@
+Types of knowledge:
+
+  Declarative knowledge:
+    A statement of facts
+    
+    
+  Imperative knowledge:
+    A secuence of steps to do something, like a recipe. This is the type of knowledge that algorithms use.
+    1. A sequence of steps
+    2. Flow control process
+    3. A mean to determining when to stop
