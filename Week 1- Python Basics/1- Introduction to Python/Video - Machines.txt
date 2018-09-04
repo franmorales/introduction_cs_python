@@ -1,0 +1,25 @@
+Computers are machines:
+
+A fix program computer: 
+  Only designed for one specific task
+
+Stored program computer:
+  Machine store and executes instructions.
+  You can build fix programs with stored program computers
+  
+Basic Machine Architecture: 
+
+1. Memory
+2.1 ALU (Arithmetic Logic Unit, realiza operaciones aritmeticas basicas)
+2.2. Control UNIT (Pogram counter, esto verifica que instruccion sigue despues, me dice en donde estoy. Es como un apuntador)
+3.1 Input
+3.2 Output
+
+
+Basic primitives:
+  You can compute everything using 6 primitives (Turing demostro que se puede computar todo con tan solo 6 instrucciones)
+  
+  Los lenguajes modernos no tiene las 6 primisas  de Turing.
+  
+  Any computable in one lenguage is copmutable in any other programming language (This is powerful!!) Cuando un lenguaje de 
+  programacion cumple con esto, se dice que es TURING COMPLETE.
