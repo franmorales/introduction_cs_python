@@ -1,0 +1,42 @@
+Pythonn Programs.
+
+A program:
+  sequence of definitions and comands
+  
+  
+Commands:
+  statements instruct interpreter to do something.
+
+
+OBJECTS.
+
+Programs manipulate data object
+Every object has a type that define the kinds of things programs can do to them.
+Scalar objects:
+  ints
+  floats
+  bool
+  NoneType: has one value: None
+  type() to see the type of an object
+  
+Non scalar objects
+
+CASTING: Cambiar el tipo de un objeto en Python.
+
+###########################################################################
+
+Question:
+
+As discussed in lecture is correct syntactic. Doesn't - - 4 represents ? Then this should result in error.
+
+Answer:
+
+That's because (-) has two uses, as a binary operator and as a unary operator.
+
+The binary means substract ie:
+
+2 - 3
+The unary means negate, returns the negative of a number. So read it as:
+
+-(-4)
+And remembering elementary maths classes, what is the negative of a negative number? Positive!
