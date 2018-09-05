@@ -31,3 +31,9 @@ Primitive constructs:
   ESTOS SON LOS MAS PELIGROSOS
   
 El desafio inicial al aprender lenguage de programacion es tener una perspectiva sintactica y semanticamente valida
+
+############################################################
+
+Syndax: Describe un orden legal de las primitives.
+Static semantics: Es una sentencia que no tiene errores sintacticos y que tiene sentido (aunque el sentido puede ser ambiguo)
+Semantics: Algo static semantic valid but ambiguous (this does not happen in a programming language)
