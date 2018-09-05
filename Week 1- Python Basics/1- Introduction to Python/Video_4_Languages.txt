@@ -1,0 +1,33 @@
+Creating recipes
+
+Programing language provides a set of primitive operations.
+Expressions are complex but legal comnbinations of primitives in a programming languages.
+
+
+Primitive constructs:
+  English: words.
+  Programming language: numbers, strings, operations, etc.
+ 
+ Aspect of laguage:
+ 
+ Syntax:
+  Algo que tiene un significado sintactio es algo legar, algo que tiene sentidos en ese lenguaje.  Es como esta estruc
+  turado el lenguaje.
+  
+  static semantic:
+  Combinacion que tiene sentido no solo a nivel sentatctico sino mas alla
+  
+ En lenguajes de programacion, lo bueno es que no hay ambiguaedades como en la gramatica normal.
+ 
+ Tipos de errores en un programa:
+ 
+ Syntatic errors
+  FACIL DE VER
+ 
+ Static semantic errors
+  FACIL DE VER
+ 
+ No semantic errors but different meaning than what programmmer intended
+  ESTOS SON LOS MAS PELIGROSOS
+  
+El desafio inicial al aprender lenguage de programacion es tener una perspectiva sintactica y semanticamente valida
