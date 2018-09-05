@@ -1,0 +1,6 @@
+Variables
+
+Binding variables and values:
+pi + 3.14159
+
+A partir de aqui, el lugar de memoria asociado al string pi va a tener el valor 3.14159
