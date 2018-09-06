@@ -1,0 +1,11 @@
+Strings, br;anching, iteration.
+  Variables:
+    Name
+      descriptive
+      meaningful
+      helps you re read code
+      
+    Value:
+      Info stored
+      
+ 
