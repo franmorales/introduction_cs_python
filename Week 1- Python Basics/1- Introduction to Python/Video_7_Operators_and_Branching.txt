@@ -1,0 +1,16 @@
+Comparision operators on int and float:
+
+
+Branching programme: 
+
+  Simplemente es utilizar la toma de decisiones para ejecutrar una pieza de codigo u otra.
+  if, else, elif, while
+  Para lograr lllegar a esto, necesitamos ejecutar una condicion y dicha condicion puede complurse o no. De esta decision
+  depende qu[e se ejecute o que no.
+  
+  Priority order of boolean operations in Python:
+  
+  1. Parenthesis first
+  2. Not statements
+  3. And statemes
+  4. Or statemen
