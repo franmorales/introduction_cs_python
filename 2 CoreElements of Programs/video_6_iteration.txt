@@ -1,0 +1,11 @@
+Iteration.
+Repeat a piece of code nth times until I get a specific result.
+
+NOTA: 
+
+num = 10
+for num in range(5):
+    print(num)
+print(num)
+
+SE SOBRE ESCRIBE LA VARIABLE NUM POR UTILIZARLA EN EL FOR.
