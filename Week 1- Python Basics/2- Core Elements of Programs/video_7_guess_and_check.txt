@@ -1,0 +1,6 @@
+Guess and check
+
+Son algoritmos simples que utilizan una cierta parte de codigo para poder hallar un resultado específico.
+
+Exhaustive enumeration:
+  Agotar todos los posibles resultados hsasta llegar a lo que quiero.
