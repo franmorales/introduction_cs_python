@@ -1,0 +1,44 @@
+Branching programs:
+
+Something with a contitions to evaluete and it execute some pieces of code, sometimes more than onnce.
+
+To handle the evaluation of results I have:
+  if, elif, else  --> Do something if some condition is true
+  while --> Repeat some piece of code until some condition become true.
+  For  --> Repite algo cierta cantidad de tiempo
+  
+Cosas que necesiito para que un While looop no sea infinito o nunca entre en el:
+1. Inicializar una variable.
+2. Una condicion para complir en una variable de control.
+3. Serciorarme que la variable de control cambie de estado'
+
+Siempre puede reescribir un loop for con un while. Siempre!
+
+
+Para el For loop, se puede usar la palabra reservada Range(inicio,final,saltos)
+----->Breaak, rompe el loop for y while, ambos.
+
+#################################################################################################
+
+Truthy and Falsy values
+
+Truthy: 
+  Any number that is NOT 0 (NEGATIVE AND POSITIVE)
+  Any string that is NOT empty
+
+Falsy:
+  The number 0
+  The empty string '' ""
+  
+  
+  
+  
+ if type(varA) == type('a') or type(varB) == type('a'):
+    print ("string involved")
+ if type(varA) == type('a') and type(varB) == type('a'):
+     if len(varA) > len(varB):
+         print('bigger')
+     else:
+         print('smaller')
+     if varA == varB:
+         print('equal')
