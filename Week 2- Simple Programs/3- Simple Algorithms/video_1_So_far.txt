@@ -1,1 +1,19 @@
 For loops recap
+Guess and check algorithms:
+  Generate values until get the correct answer.
+
+STRINGS
+
+*Slice stirngs:
+  [start:stop:step]
+  
+  
+*IMMUTABLE:
+  Cannot change their value at in a patial way (the only you can do is to change the whole value)
+  
+
+*ALLOWS THE USE OF THE KEYWORD range(len())
+
+*ITERABLE
+  for chaer in string:
+    do something
