@@ -1,0 +1,5 @@
+Aproximate solutionns.
+
+Exhaustive enumarations.
+  I cannot use this kind of algorithms to do all kind of algorithms. But even so, guess and check could be a very powerfull
+  tool
