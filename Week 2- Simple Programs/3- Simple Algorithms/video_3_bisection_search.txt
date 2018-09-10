@@ -1,0 +1,8 @@
+BISECTION SEARCH!!!!!
+
+This is a good method to do guess and check in a more efficient way to solve problems.
+
+
+WHEN CAN I USE THIS TYPE OF ALGORTHMS???
+1. Tengo que poder evaluar la respuesta (esto no necesariamente solo para bisection search).
+2. Las posibilidades de descartar ciertas posibles respuestas son debido a que los intentos siguen un orden como tal.
