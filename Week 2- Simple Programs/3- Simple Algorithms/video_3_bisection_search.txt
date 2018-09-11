@@ -6,3 +6,21 @@ This is a good method to do guess and check in a more efficient way to solve pro
 WHEN CAN I USE THIS TYPE OF ALGORTHMS???
 1. Tengo que poder evaluar la respuesta (esto no necesariamente solo para bisection search).
 2. Las posibilidades de descartar ciertas posibles respuestas son debido a que los intentos siguen un orden como tal.
+
+###############################################################FINGER EXERCISE
+
+print ("Please think of a number between 0 and 100!")
+low, high = 0, 100
+while True:
+    guess = (low + high)//2
+    print("Is your secret number "+str(guess)+"?")
+    ind = input("Enter 'h' to indicate the guess is too high. Enter 'l' to indicate the guess is too low. Enter 'c' to indicate I guessed")
+    if ind == 'c':
+        break
+    elif ind == 'l':
+        low = guess
+    elif ind == 'h':
+        high = guess
+    else:
+        print("Sorry, I did not understand your input.")
+print("Game over. Your secret number was: "+str(guess))
