@@ -1,0 +1,3 @@
+Keyword arguments and default values
+  Puedo settear valores de los argumentos en caso de que alguno falte. Tambien puedo alterar el orden de los parametros
+  poniendo explicitamente el nombre del parametro de la funcion al momento de declararla.
