@@ -1,0 +1,5 @@
+Specifications. DOCSTRINGS! 
+  A contract betweeen the implementer of the function and the clients who will use it.
+    Assumption: What the funciont will do
+    Guarantees.
+Ayudan a que se entienda mas el codigo. Inputs, and outputs, specify the type of.
