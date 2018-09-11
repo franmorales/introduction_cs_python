@@ -1,0 +1,3 @@
+Dealing with float's
+
+Floats approximate real numbers (how it does it). Internally, computers represent every number in binary.
