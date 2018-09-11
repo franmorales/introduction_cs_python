@@ -1,0 +1,18 @@
+Recursion.
+  It usually don't use for and while loops, actually no loops at all
+  What is is:
+    Devide, decrease and conquer.
+    A technique where a function calls itself.
+    Recursion se basa en manejar dos casos, el caso recursivo y el caso basico. 
+      Caso recursivo: Caso en el que la funcion si se llamará a si misma 
+      Caso base: Caso en el que la funcion ya no se llamara a si misma y podra retornar un valor especifico. Este caso es el
+      que me permite no entrar en un ciclo infinito y terminar el ciclo recursivo. El caso base puede ser mas de uno.
+      
+
+Iterative algorithms
+  Iterative variable that will change in every iteration.
+  Looping constructs (for and while loops).
+La recursividad es una tecnica que, en si, es intuitiva, pero consume mucho mas recursos que la iterativa. Por alguna razon
+
+NOTA: VERIFICAR POR QUE LAS FORMAS RECURSIVAS CONSUMEN MAS RECURSOS QUE LAS ITERATIVAS. TAL VEZ SEA PORQUE CADA VEZ QUE ENTRA
+EN EL CASO RECURSIVO SE CREA UN NUEVO FRAME.
