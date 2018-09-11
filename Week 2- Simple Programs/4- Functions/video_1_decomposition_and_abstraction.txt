@@ -1,0 +1,18 @@
+Decomposition  and abstraction - FUNCTIONS.
+
+Los pilares basicos un buen diseno se basan practcamente en esto... DECOMPOSITION AND ABSTRACTION.
+
+MEASURE GOOD PROGRAMMERS BY THE AMOUNT OF FUNCTIONALITY!!! 
+
+Function: 
+  Decomposition:
+    Modularity. Devide one task in many litle tasks to accomplish a bigger task
+  
+  Abstraction:
+    Black-box concept. I don't need how it acutally works, I only need to know which are the inputs and what should I expect
+    for outputs. SUPRESE THE DETAILS.
+   
+   
+KEY IDEAS:
+  Break the code into pieces.
+  Suprese the details.
