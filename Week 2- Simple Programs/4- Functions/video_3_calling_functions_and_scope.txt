@@ -1,0 +1,12 @@
+Variable scope:
+  Formal parameter: Gets bound to the value of actual parameter when the function is called
+  New scope/frame/environment created when enter a function
+  Scope is mapping of names to objects.
+  Inside a funtion, can access a variable defined outside but I cannot modify it
+
+HELPER FUNCTION:
+  Es definir una funcion dentro de una funcion. Esta funcion dentro de otra puede utilizarse unicamente en el frame de la 
+  funcion en donde fue creada.
+
+Si no retorno nada en una funcion retorna el valor "None"
+Nota: Siempre que se invoca a una nueva funcion se crea un nuevo frame. IMPORTANTISIMO!
