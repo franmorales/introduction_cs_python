@@ -1,0 +1,6 @@
+Characteristics:
+  Name
+  Parameters (could be zero, or more)
+  Docstring (optional but recommended)
+    Declare the needed inputs and mention the expected outputs.
+  Body
