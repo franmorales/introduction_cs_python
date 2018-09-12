@@ -1,0 +1,9 @@
+Inductive reasoning.
+  How do we know that the recursive code will work?
+
+
+Para los valores de una funcion iterativa, estoy seguro de que se va a terminar porque estoy cambiando el valor de la variable
+de control.
+
+Para  funciones recursivas, necesito que se cumpla el caso o casos base para que no entre en un bucle infinito.
+  El caso base es el caso mas simple para el cual yo estoy seguro de que la prueba es correcta.
