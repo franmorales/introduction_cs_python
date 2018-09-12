@@ -1,0 +1,4 @@
+Fibonacci:
+Base casses: 
+  if x == 0 or x ==1
+este es un claro ejemplo de que se puede tener mas de un ejemplo base.
