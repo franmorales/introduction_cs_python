@@ -1,0 +1,11 @@
+FILES.
+  I can manage files witing python just like any other objects
+  
+  MODULES:
+    Python files with functions and variables in it, and I can import it into some other files or in the shell.
+    I can do that with the keyword import. Example:
+      import <madule>
+      from <module> import *
+  FILES:
+    nameForHandle = open ('kids', 'w')
+    nameHandle.close()
