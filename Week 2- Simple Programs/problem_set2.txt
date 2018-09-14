@@ -1,0 +1,44 @@
+##### PS1
+count = 0
+monthIntRate = annualInterestRate/12.0
+while count<12:
+    unpBalance = balance - balance*monthlyPaymentRate
+    effectiveInterest = unpBalance*monthIntRate
+    balance = unpBalance + effectiveInterest
+    count += 1
+print(round(balance,2))
+
+##### PS2
+
+def balanceTest(monthlyPaymentRate, balance):
+    count = 0
+    while count<12:
+        effectiveInterest = (balance - monthlyPaymentRate)*(annualInterestRate/12.0)
+        balance = (balance - monthlyPaymentRate) + effectiveInterest
+        count += 1
+    return round(balance,2)
+monthlyPaymentRate = 10
+testValue = balanceTest(monthlyPaymentRate,balance)
+while testValue > 0:
+    monthlyPaymentRate+=10
+    testValue = balanceTest(monthlyPaymentRate, balance)
+print (monthlyPaymentRate)
+
+###### PS3
+
+def balanceTest(monthlyPaymentRate, balance):
+    for i in range(12):
+        effectiveInterest = (balance - monthlyPaymentRate)*(annualInterestRate/12.0)
+        balance = (balance - monthlyPaymentRate) + effectiveInterest
+    return round(balance,2)
+lowerBound, upperBound = balance/12, (balance*(1+annualInterestRate/12.0)**12)/12 
+while True:
+    monthlyPaymentRate = (lowerBound + upperBound)/2
+    testValue = balanceTest(monthlyPaymentRate,balance)
+    if testValue > 0:
+        lowerBound = monthlyPaymentRate
+    else:
+        upperBound = monthlyPaymentRate
+    if abs(testValue) <= 0.01:
+        break
+print (round((monthlyPaymentRate),2))
