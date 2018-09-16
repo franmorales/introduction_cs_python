@@ -1,0 +1,6 @@
+LISTS:
+  Ordered
+  Squere brackets
+  A list of any elements
+  MUTABLE!!!! This is a pro and could be a contra
+  Couses index errors
