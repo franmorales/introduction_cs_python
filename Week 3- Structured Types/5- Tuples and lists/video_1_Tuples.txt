@@ -1,1 +1,13 @@
-lol
+Tuples, lists, mutability, cloning.
+Data structers: Tuples and lists.
+  TUPLES:
+    Ordered
+    Immutable (like strings, it cannot change partially)
+    Parenthesis
+    Slicing
+    Iterable.
+    
+ Es posible retornar una tupla que tenga adento varios tipos de primitives. Inclusive se pueden crear tuplas con tuplas dentro
+ de las tuplas.
+    Empty tuple = ()
+    Single element tuple = ('hola',)
