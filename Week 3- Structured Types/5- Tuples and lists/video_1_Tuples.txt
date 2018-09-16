@@ -11,3 +11,6 @@ Data structers: Tuples and lists.
  de las tuplas.
     Empty tuple = ()
     Single element tuple = ('hola',)
+
+
+x = (1, 2, (3, 'John', 4), 'Hi')
