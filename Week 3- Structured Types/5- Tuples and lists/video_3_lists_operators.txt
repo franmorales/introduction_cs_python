@@ -1,0 +1,20 @@
+ADD [Mutates]
+  list.append(element)
+CONCATENATION: [Not mutate]
+  list3 = list1+list2
+EXTEND: Mutate
+  lista1.extend(lista2)
+REMOVE:
+  del(LIST[index])    MUTATE
+  LIST.pop()          MUTATE and Returns de removed value
+  lista.remove(element) MUTATE y remvueve el element exactamente, no se pasa en el index
+  
+FOR TYPE CASTING:
+list('string')
+s.split(<char>)
+''.join(L)   convierte de una lista a un string
+
+OTHER LIST OPERATIONS:
+  sorted()  ====> DO NOT MUTATE
+  list.sort() ++++> MUTATE
+  LIST.reverse() ======> mutate
