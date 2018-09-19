@@ -9,3 +9,17 @@ MUTATION, ALIASING, CLONNING. (MOST BE VERY CAREFULLY WHEN USING THIS)
   
   sort(): mutates the list, returns nothing
   sorted(): does not mutate list, it returns the sorted list.
+
+>>> aList = [0, 1, 2, 3, 4, 5]
+>>> bList = aList
+>>> aList[2] = 'hello'
+>>> aList == bList
+
+
+
+>>> cList = [6, 5, 4, 3, 2]
+>>> dList = []
+>>> for num in cList:
+        dList.append(num)
+>>> cList == dList
+
