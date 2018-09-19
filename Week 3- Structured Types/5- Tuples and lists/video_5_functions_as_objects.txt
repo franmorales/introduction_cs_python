@@ -1,0 +1,10 @@
+Functions as objects, Dictionaries.
+
+Functions are first class objects:
+  have types
+  can beelements of a data structures
+  can appear in expressions
+  use functions as arguments
+  
+The use of MAP:
+map(abs, [1,-2,3,4]) ++++++ RETURNS A LIST
