@@ -1,0 +1,11 @@
+MUTATION, ALIASING, CLONNING. (MOST BE VERY CAREFULLY WHEN USING THIS)
+  Lists in memory:
+    Mutable
+    Is an object in memory
+    Variable name points to object
+    ANY VARIABLE POINTING TO THAT WILL BE MODIFIED!!!! 
+  
+  Para evitar este tipo de errores, al copiar una lista en otra variable, tenemos que clonarala.
+  
+  sort(): mutates the list, returns nothing
+  sorted(): does not mutate list, it returns the sorted list.
