@@ -1,0 +1,11 @@
+STRINGS, TUPLES, RANGES, LISTS
+  seq[i]
+  len(seq)
+  seq1+seq2 ===> Not with ranges
+  n*seq ===> Not with ranges
+  seq[start:end]
+  e in seq ==> Boolean
+  e not in seq ===> Boolean
+  for e i seq ===> Iterates
+  
+PROPERTIES: 
