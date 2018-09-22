@@ -1,0 +1,23 @@
+DICTIONARIES (a data structures).
+  Nice to index item of interest directly (not always int)
+  Nice to use one data structure, no separate lists
+  Mutable
+  I can test (key in dictionaries)
+  NO TIENE UN ORDEN ASOCIADO
+  Store pairs of data +++ myDict = {}
+    Key
+    Value
+  
+Keys and Values:
+  Values:
+    Any type (immutable and mutable)
+    Can be duplicates
+    Can be ANY TYPE OF DATA STRUCTURE
+  
+  Keys:
+    Must be unique
+    Immutable type ONLY (int, float, string, tuple, bool)
+    Careful with float type as keys
+    
+    
+  NO ORDER TO KEYS OR VALUES!
