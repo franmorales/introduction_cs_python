@@ -1,0 +1,5 @@
+GLOBAL VARIABLES
+  Can be dangerous to use
+  
+  Can e convenient when want to keep track of information inside a funcion (traspasa parametros de funciones, por eso es 
+  util cuando se quiere utilizar un valor que traspase los scopes de una funcion)
