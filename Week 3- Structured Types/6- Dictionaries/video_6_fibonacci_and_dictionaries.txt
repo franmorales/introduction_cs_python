@@ -1,0 +1,20 @@
+Fibonacci recorsive:
+  Two base cases
+  Calls itself twice
+  This code is inefficient
+Es ineficiente porque debe rewalizar computations que ya se han hecho.
+
+
+
+def fib_efficient(n, d):
+  if n in d:
+    return d[n]
+  else:
+    ans = fib_efficient(n-1,d) +  fib_efficient(n-2,d)
+    d[n] = ans
+    return ans
+    
+    
+    MEMOIZATION: (A TOOL FOR DYMNAMIC PROGRAMMING)
+DO A LOOKUP FIRST IN CASE ALREADY CALCULATED THE VALUE.
+MODIFY DICTIONARY AS PROGRESS THROUGH FUNCION CALLS
