@@ -10,6 +10,11 @@ MUTATION, ALIASING, CLONNING. (MOST BE VERY CAREFULLY WHEN USING THIS)
   sort(): mutates the list, returns nothing
   sorted(): does not mutate list, it returns the sorted list.
 
+TYPECAST LIST INTO STRINGS:
+''.join(map(str, dasABC))
+
+
+
 >>> aList = [0, 1, 2, 3, 4, 5]
 >>> bList = aList
 >>> aList[2] = 'hello'
