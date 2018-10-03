@@ -1,8 +1,0 @@
-Strings:
-A sequence of characters (it could be empty spaces)
-It can be concatenated.
-Operations:
-  concatenations
-  successive concatenation string*aNumber
-  lenght
-  slicing
