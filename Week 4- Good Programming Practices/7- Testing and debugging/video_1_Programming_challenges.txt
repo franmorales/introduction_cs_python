@@ -1,0 +1,25 @@
+Programming challenges || Testing and debugging.
+ANALOGY - MAKING SOP.
+  Check  soup for bugs
+    Testing
+  
+  Keep lid closed
+    Defensive programming
+  
+  Clean kitchen
+    Eliminate the source of bugs - debugging
+    
+Defensive programming:
+  Write specifications for unctions ---- DOCSTRINGS
+  Modularize programs ---- WRITE SIMPLE FUNCIONS
+  Check conditions on inputs/outputs (Assertions) ---- WHAT IS THIS?
+  
+Testing/Validations:
+  Compare input/output pairs to specification
+  "Its not working!"
+  "HOW CAN I BREAK MY PROGRAM!!!!"
+
+Debugging:
+  Study events leading up to an error
+  Why is it not working 
+  How can I fix my program.
