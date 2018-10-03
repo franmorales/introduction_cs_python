@@ -1,0 +1,45 @@
+SET YOURSELF UP FOR EASY TESTING AND DEBUGGING
+  Break program into mudules that can be tested and debugged individually
+  Docstring is very important
+    Input should be? Output should be?
+  Document assumptions behind code design.
+  
+Why are you ready to test?
+  Ensure code runs
+    No syntax errors
+    Remove static semantic errors
+  Have a set of expected results
+    An input set
+    For each input, the expected output
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ CLASSESS OF TESTS:
+  Unit testing
+    Validate each piece of program
+    Testing each function separatly.
+  Regression testing
+    Add tests for bugs as you find them in a function
+    Catch reintroduced errors that were previously fixed
+    
+  Integration Testing
+    Does overall program work?
+    Tend to rush to do this.
+    
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TESTING APPROACHES
+  Intuition: About natural boundaries to the problem
+  Black box testing: Tests based on specifications
+    Without looking at the code!!!!!
+    Can be done by someone other than the implimenter
+    Testing can be reused if implementation changes
+    BOUNDARY CONDITIONS (EMPTY LISTS, SINGLETON LISTS, LARGE NUMBERS, SMALL NUMBERS)
+  
+  
+  
+  Glass box testing: Tests based on the actual code || It could acctually miss some bugs
+    USE CODE DIRECTLY 
+    CALLED PATH-COMPLETE if every potential path through code is tested at least once
+    GUIDELINES
+      Branches: Exercise all parts of a conditional
+      For loops: not entered, executed exactly once, executed more than once
+      While loops: Same as for loops
