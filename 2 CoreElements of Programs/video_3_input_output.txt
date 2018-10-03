@@ -1,5 +1,0 @@
-We neeed inptu and output to interact with our programs.
-
-The keyworrd input bind whatever i text in the keyword to a variable. 
-
-Everything it catch is a string.
