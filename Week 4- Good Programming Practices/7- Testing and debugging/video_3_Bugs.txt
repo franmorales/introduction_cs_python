@@ -1,0 +1,21 @@
+Once you know you have a bug:
+  ISOLATE  THE BUG
+  ERADICATE THE BUG
+  RETEST UNTIL CODE RUNS CORRECTLY
+
+Runtimes Bugs:
+  overt: obvious manifestation
+  Covert: Has no obvious manifestation - code returns incorrect values 
+  
+  persistent: occurs every time code is run
+  Intermittent: Only occurs some times, even if run on same input
+
+Overt and persistent:
+  Obvious to detecct
+  Use defensive programming to try to ensure that if error is made, bug will fall into this category
+
+Overt and intermittent
+  More frustrating, can be harder to debug, but if conditions that prompt bug can be reproduced, can be handled
+  
+Covert
+  Highly dangerous, as users may not realize answers are incorrect until code has been run for long period.,
