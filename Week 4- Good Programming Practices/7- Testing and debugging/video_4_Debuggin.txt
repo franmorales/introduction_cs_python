@@ -11,3 +11,14 @@ ERROR MESSAGES - EASY:
   TypeError
   NameError
   SyntaxError
+  
+Logic Errors - HARD
+Think before writing a new code
+Explain the code to...
+  ANYTHING
+  
+#############################################################################
+
+DEBUGGING STEPS:
+  STUDY PROGRAM CODE.
+  
