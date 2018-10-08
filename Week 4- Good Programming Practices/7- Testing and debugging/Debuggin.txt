@@ -1,0 +1,13 @@
+Debuggin
+  Steep learing curve
+  Goal is to have a bug-free program
+  Tools:
+    Built in IDLE
+    Python Tutor
+    print statement
+    Use your brain, be systematic in your hunt.
+ERROR MESSAGES - EASY:
+  IndexError
+  TypeError
+  NameError
+  SyntaxError
