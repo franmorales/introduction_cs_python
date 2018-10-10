@@ -1,0 +1,8 @@
+ Exceptions as Control Flows.
+  Raise an exception!!!! MY OWN EXCEPTION!
+    raise <exceptionName> (<arguments>)
+    raise ValueError("Something is wrong")
+    
+    
+PARA ESTA SINTAXIS, LO MAS IMPORTANTE ES QUE LEVANTA LA EXCEPTCION PERO NO LA MANEJA, EL MANEJO DE LA EXCEPTCION TIENE QUE
+HACERCE CON OTRO MANEJO DE EXCEPCIONES.
