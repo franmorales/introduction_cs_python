@@ -1,0 +1,12 @@
+Example exception usage
+
+while True:
+  try:
+    n = input ("Please enter an interger: ")
+    n = int(n)
+    break
+  except ValueError: #ESTA INTERRUPCION SE LEVANTA SI Y SOLO SI HAY UNA  INTERRUPCION DE ValueError
+    print("Input not an interger, try again")
+print ("Correct input of an interger!")
+
+##################################################################################################################
