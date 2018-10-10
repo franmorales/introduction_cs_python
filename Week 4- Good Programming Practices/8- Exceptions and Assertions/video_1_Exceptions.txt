@@ -1,0 +1,46 @@
+Exceptions and Assertions. (DEFENSIVE PROGRAMMING)
+  What happens when precedure ececution hits an unexpected condition?
+  
+  Get an exception...
+    IndexError
+    TypeError
+    NameError
+    IOError
+  
+######################
+
+What to do when encounter an error?
+  Fail silently
+    NEVER DO THAT
+  
+  Return an error Value
+    What value to choose?
+    Complicates code having to check for a special value
+  
+  Stop execution, signal error condition
+    In python, RAISE AN EXCEPTION
+    raise Exception ("descriptive string")
+    
+######################5137 7711
+
+try:
+  <Some sentences>
+excetp: #This is a general expceptions!!
+  <If an exception raised, do some other sentences>
+  
+######################
+
+Types of exceptions:
+  except ValueError
+  except ZeroDivisionError
+  except
+  
+######################
+
+else:
+  Body of this is executed when execution of associated try body completes with no exceptions 
+
+finally:
+  Bodi of this is always executed after try, else and except clauses. 
+  INCLUSO SIEMPRE DESPUES DE UN BREAK, CONTINUE o RETURN!!!! SUPER IMPORTANTE
+
