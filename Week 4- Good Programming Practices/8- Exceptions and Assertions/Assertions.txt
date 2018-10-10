@@ -1,0 +1,29 @@
+  ASSERTIONS
+    Want to be sure that assumptions on state of computation are as expected.
+    Use an assert statement to raise an AssertionError exception if assumptions not
+    met
+    A technique for good defensive programming.
+    
+    
+############################################
+
+def avg(grades):
+  assert not len(grades) ==0, 'no grades data'
+  return sum(grades)/len(grades)  
+############################################
+
+CHECK INPUTS
+CHECK OUTPUTS
+Make it easier to locate a source of a bug 
+
+#####################
+
+Where to use assertions?
+- Goal is to spot a bug as soon as introduced.
+- Use as a supplement to testing
+- Raise exceptions if users supplies bad data input.
+- To check:
+  Types of arguments
+  Invariants on data structres are met
+  Constraints
+  Violations of constraints on procedure.
