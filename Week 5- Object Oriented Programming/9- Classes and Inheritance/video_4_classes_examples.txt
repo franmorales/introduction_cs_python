@@ -1,0 +1,12 @@
+Example: Frations
+
+create a new type of object (an instance of a class)
+internal representation
+  numerator
+  denominator
+interface a.k.a. methods
+  print representation
+  add, substract
+  convert to a float
+  
+Getters: separa la representacion interna de la representacion externa. (un concepto super importante para la abstraccion)
