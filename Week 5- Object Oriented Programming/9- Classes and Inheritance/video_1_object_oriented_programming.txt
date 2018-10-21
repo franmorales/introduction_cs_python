@@ -1,0 +1,58 @@
+OBJECT ORIENTED PROGRAMMING.
+
+Objects
+  python supports many differente kinds of data (primitive sets of objects)
+  Each is an instance of an object, and every object has
+    a type
+    internal data representations
+    a set of procedures for interaction
+  Evey instance is a particular type of object
+#######################################################
+
+Object oriented programming (OOP)
+
+EVERYTHING IN PYTHON IS A N OBJECT, AND HAS A TYPE.
+
+Objectrs are a data abstraction that capture:
+  Internal representation through data attributes.
+  Interface for interacting with object through methods (procedures). 
+
+Can create new instances of objects
+
+Can destroy objects 
+######################################################
+
+Example: l=[1,2,3,4]
+
+l is of type list (l is an instance of the object list)
+
+How to manipulate lists (an instance of an object)? 
+  Slicing
+  Procedures len(), min(), max(), del(L[i])
+  Methods
+  
+Internal representation should be private.
+Correct behavior may be compromised if you manipulate internal representation directly.
+
+######################################################
+
+Creating and using your own objects with classes
+  
+  Make a distinction betweeen creating a class and using an instance of the class.
+  
+  Creating the calss involves:
+    defining the calss NAME
+    defining the class ATRIBUTES
+    
+  Using the class involves:
+    Creating new instances of objects
+    Doing operations on the instances (Using methods and procedures)
+###################################################### 
+
+ABSTRACTIONS!!!!
+
+Bundle ata into packages (abstractions)
+Divide and conquer (modularization)
+REUSE CODE. (Classy)
+    
+    
