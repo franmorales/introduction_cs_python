@@ -1,0 +1,21 @@
+Define your own types
+
+class Coordinate(object): #coordinete is a subclass of an object, and object is the master class
+  <define attributes here> 
+  
+  
+The word object means that coordinate is a Python object and inherits all its attributes (coming soon_)
+  Coodinate is a subclass of object
+  Object is a superclass of coordinate
+  
+What are ATTRIBUTES?
+  DATA and PROCEDURES that belong to the class.
+  
+  Data attributes
+    Data: Pure primitives
+    PrOCEDURAL Attributes(methods)
+      Funcions that only work with this calss
+      
+ ####################################################
+ 
+  
