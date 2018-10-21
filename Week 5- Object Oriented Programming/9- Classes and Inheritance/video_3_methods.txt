@@ -1,0 +1,33 @@
+What is a method?
+
+  Procedural attribute, like a function that works only with this class
+
+  Python always, passes the actual object as the first argument, convention is to use self as the name of the first argument
+  of all methods.
+  
+  The "." operator is used to access any attribute
+    a data attribute
+    a procedural atttribute
+    
+c.distance(origin) y esto otro son lo mismo:
+coordinate.distance(c,origin) #se llama a la clase y luego al metodo, se ingresan dos valores como parametros, los dos objects
+
+HOW TO PRINT OBJECS:
+
+  c = Coordinate(3,4)
+  print(c)
+  
+  Print non-human-readeble information.
+  
+  For human readible, you must define __str__method for a class, python use this method when use print
+  
+type (c)
+class__main__.coordinate
+
+print (coordinate, type(coordinate))
+
+<class__main__.coordinate> <type 'type'>
+
+For evaluate: Isinstance()
+
+Special methods. Google it!!!!!
