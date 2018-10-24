@@ -1,0 +1,66 @@
+Understanding program Efficiency
+
+Want to undesrstand efficiency of programs?
+
+
+Computers are fast and getting faster. eFFICIENT PROGRAMS don't matter?
+  But data sets can be very large
+  This, simple solutions may simple not scale with sze in accesptable manner.
+  
+Separate time and space time and space efficiencey of a program.
+
+Tradeoff betweeen them.
+
+CHANLLENGE IN UNDERSTANDING EFFICIENCY OF SOLUTION TO A COMPUTATIONAL PROBLEM.
+  A program can be implement in many different ways
+  You can solve a problem using only a handful of different algorithms (set tool)
+  Would like to separate choices of implementation form choices of more abstract algorithm
+  
+HOW TO EVALUATE EFFICIENCY OF PROGRAMS
+  Measure TIME (BAD FOR MEASUREMENT)
+    varies betwwen algorithms 
+    varies between implementations
+    varies between computers
+    is not predictable
+    EVALUATE MACHINES
+  
+  
+  Count operation (NOT SO BAD FOR MEASUREMENT)
+    Mathematical operations (GOOD)
+    comparations
+    assignments
+    accesing objects in memory
+   
+    depends on algorithm
+    depends on implementation (BAD)
+    independent of computers
+    no real definition of which operations to count (BAD)
+  
+  Abstract notion of ORDER OF GROWHT (esto es lo mas mas importante)
+    Goals:
+      want evaluate programs efficiency when input is very big
+      want to express the growth of programs run time as input size grows
+      want to put an upper bound on growth
+      do not need to be precise 
+      we will look at largest factors in run time
+    
+    Types of orders of growth:
+     constant
+     linear (GOOD)
+     quadratic
+     logarithmic
+     n log n (GOOD)
+     exponental
+  
+  
+  I WANT TO EVALUATE:
+    ALGORITHM
+    SCALABILITY
+    IN TERMS OF INPUT SIZE
+      Different inputs change how to programs runs
+      BEST CASE
+      WORST CASE
+      AVERAGE CASE
+      
+  GOALS
+    
