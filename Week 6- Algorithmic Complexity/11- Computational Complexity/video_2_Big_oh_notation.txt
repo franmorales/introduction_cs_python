@@ -1,0 +1,72 @@
+Measuring order of growth: BIG OH NOTATION
+  Big Oh notation measures an upper bound on the asymptotic growth, often called order of growth
+
+  Big Oh O() is used to describe worst case (upper bound)
+    Worst case occurs often and is the bottleneck when a program runs.
+    Express rate of growth of a programe relative to the input size
+    Evaluate algortihm not machine or implementation
+    
+EXAMPLE:
+  
+def fact_iter()
+  ans = 1
+  while n>1:
+    ans *= n
+    n -= 1
+  return ans
+  
+Computes fact
+Number of steps: 5n+2
+Worst case asymptotic complexity: O(n)
+  ignore addite constant
+  ignore multiplicative constant
+
+#########################
+
+drop constants and multiplicative factors (VERGA DE LOCOS!)
+focus on the dominant term
+
+n^2 + 2n + 2 ===== O(n^2)
+n^2 + 1000000n + 3^1000  ======= O(n^2)
+log(n) + n + 4  ====== O(n)
+0.00001*n*log(n) +300n  ======= O(n log n)
+2n^30 + 3^n ====== O(3^n)
+
+#########################
+
+JERARQUIA:
+
+O(1) CONSTANTE  (EXTREMLY GOOD)
+O(log n) LOGARITHMIC
+O(n) LINEAR
+O(n log n) LOGLINEAR
+O(n^c) POLYNOMIAL
+O(c^n) EXPONENTIAL (VERY BAD)
+
+#########################
+
+ANALYSING PROGRAMS AND THEIR COMPLEXITY:
+
+  Combine complexity classes
+    analyze statements inside functions
+    apply some rules, focus on dominant term
+  
+  Law of Addition for O()
+    used with sequential statements
+    O(f(n)) + O(g(n)) is  O(f(n) + g(n))
+    for i in range(n):
+      print ('a')
+    for j in range (n*n):
+      print('b')
+    is O(n) + O(n*n) = O(n+n^2) = O(n^2) because of dominant term
+  
+  Law of multiplication for O():
+    used with nested statements/loops
+    O(f(n)) * O(g(n)) is O(f(n)*g(n))
+    EXAMPLE:
+      for i in range(n):
+        for j in range (n):
+          print('a')
+    is O(n) * O(n) = O(n*n) = O(n^2) because the outer loop goes n times and the inner loop goes n times for every otuer loop
+    iteration
+   
