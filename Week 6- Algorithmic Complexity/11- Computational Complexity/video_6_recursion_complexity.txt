@@ -1,0 +1,13 @@
+BIG OH SUMMARY
+
+
+Compare efficiency of algorithms
+  notation that describes growth 
+  lower order of growth is better
+  independent of machine or specific implementation
+  
+Use Big Oh
+  describe order of growth 
+  asymptotic notation
+  upper bound 
+  worst case analysis 
