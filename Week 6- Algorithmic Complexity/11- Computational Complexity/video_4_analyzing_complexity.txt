@@ -1,0 +1,7 @@
+Polynomial complexity
+  Most common poynomial algorithms are quadratic
+  Commonly occurs when we have nested loops or recursive functions calls
+  
+  when dealing with nested loops, look at the ranges
+  nested loops, each iterating n imes
+  O(n^2)
