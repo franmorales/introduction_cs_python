@@ -1,0 +1,11 @@
+Exponential Complexity
+
+Recursive functions WHERE MORE THAN ONE RECURSIVE CALL FOR EACH SIZE OF PROBLEM (Problemas recursivos que se llaman mas de una
+vez a si mismas en cada recursion)
+  Towers of Hanoi
+
+Many important problems are inherently exponential
+  Unfortunate,  as cost can be high
+  will lead us to consider approximate solutions more quickly
+  
+  
