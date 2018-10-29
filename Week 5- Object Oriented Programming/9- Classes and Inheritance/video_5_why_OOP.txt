@@ -1,0 +1,50 @@
+The power of OOP
+bundle together objects that share:
+  common attributes
+  procedures that operate on those attributes
+  
+Use abstraction to make a distinction between how to implement  an object vs how to use the object
+
+Build layers of object abstractions that inherit behaviors form other classes of objects
+
+Create our own classes of objects on top of Pythons basic classes.
+
+###############################################################################################
+
+Write code from two different perspectives
+
+IMPLEMENTIG THE CLASS
+Define the class
+  Define data attributes (What is the object)
+  Define methods (How to use the object)
+
+USING THE CLASS
+  Create instances of the object type
+  Do operations with them
+ 
+###############################################################################################
+
+Class definition
+  Class is the type
+  Class is defined genericaly
+
+
+Instance of a class
+  Instance is one particular object
+  Data values vary between instances
+  
+###############################################################################################
+
+Why OOP...?
+  Mimic real life
+  Group different objects as part of the same type
+  
+###############################################################################################
+  
+ATTRIBUTES:
+  Data
+  Procedural attributes
+  
+Getters and Setters:
+  Methods to access and change info of a specific object without touching the internal representation as itself
+  Getters and setteres should be used outside of class to access data attributes!!!!
